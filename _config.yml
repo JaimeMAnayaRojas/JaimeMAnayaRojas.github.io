@@ -1,24 +1,34 @@
 # Site Settings
 name: Jaime Anaya-Rojas
-title: Jaime Anaya-Rojas | Personal Website
-description: Welcome to my personal website and blog. I share my thoughts on technology, research, and life.
+title: Dr. Jaime M. Anaya-Rojas | Ecology & Evolution
+description: Dr. Jaime M. Anaya-Rojas - Junior Researcher at University of Münster. Research in eco-evolutionary dynamics, host-parasite interactions, and aquatic ecology.
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - ecology
+  - evolution
+  - research
+  - academia
+  - host-parasite
+  - aquatic-ecology
+  - eco-evolutionary-dynamics
 show_hero: true
 menu:
   - title: Home
     url: /
   - title: About
     url: /about
+  - title: Research
+    url: /research
+  - title: Publications
+    url: /publications
+  - title: Teaching
+    url: /teaching
+  - title: Group
+    url: /group
   - title: Contact
     url: /contact
   - title: Feed
     url: /feed.xml
-email: jaimemanayarojas@example.com
+email: jaime.anaya-rojas@uni-muenster.de
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
