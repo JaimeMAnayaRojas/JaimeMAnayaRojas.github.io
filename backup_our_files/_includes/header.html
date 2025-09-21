@@ -1,0 +1,30 @@
+<header class="header">
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="{{ '/' | relative_url }}">
+                    <h1>{{ site.title | default: "Your Brand" }}</h1>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="{{ '/' | relative_url }}" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ '/about' | relative_url }}" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+</header>
